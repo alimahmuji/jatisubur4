@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin Jati Subur4</title><link rel="stylesheet" href="css/admin.css"></head>
+<body>
+<header class="adminbar"><strong>JATI SUBUR4</strong><div><a href="index.html">Toko</a><button id="logout">Keluar</button></div></header>
+<main class="adminwrap">
+<section class="panel"><div class="section-head"><div><p class="eyebrow">CLOUD FIRESTORE</p><h1>Kelola Produk</h1></div><button id="newBtn">+ Produk Baru</button></div>
+<form id="productForm" class="formgrid hidden">
+<input id="pid" type="hidden"><input id="name" placeholder="Nama produk" required><input id="category" placeholder="Kategori" required>
+<input id="price" type="number" placeholder="Harga" required><input id="stock" type="number" placeholder="Stok" required>
+<input id="image" type="url" placeholder="URL gambar (opsional)">
+<textarea id="description" placeholder="Deskripsi produk"></textarea>
+<div><button type="submit">Simpan</button> <button type="button" class="secondary" id="cancel">Batal</button></div></form>
+<div id="msg"></div><div id="tableWrap"></div></section>
+</main>
+<script type="module" src="js/admin.js"></script></body></html>

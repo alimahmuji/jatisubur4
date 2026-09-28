@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Kursi Tamu Jati",
+      "category": "Kursi",
+      "price": 3500000,
+      "stock": 5,
+      "image": "",
+      "description": "Kursi tamu kayu jati dengan desain elegan.",
+      "active": true
+    },
+    {
+      "name": "Meja Makan Jati 6 Kursi",
+      "category": "Meja Makan",
+      "price": 7500000,
+      "stock": 3,
+      "image": "",
+      "description": "Set meja makan kayu jati untuk keluarga.",
+      "active": true
+    }
+  ]
+}
